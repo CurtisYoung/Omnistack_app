@@ -9,7 +9,7 @@ import api from '../../services/api';
 export default function Profile(){
     const [incidents, setIncidents] = useState([]);
 
-    const history = useHistory;
+    const history = useHistory();
     const ongId= localStorage.getItem('ongId');
     const ongName = localStorage.getItem('ongName');
 
